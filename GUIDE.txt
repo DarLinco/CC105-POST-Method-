@@ -1,0 +1,17 @@
+
+
+
+Connecting React Native Apps using Localhost PhpMyAdmin (MySQL DB) - POST method (INSERTING)
+
+Requirements:
+1. XAMPP software to give our system to work like a localhost.
+2. IP address of your Computer. Note: Type ipconfig in command prompt, IPv4 is your PC IP address.
+3. Make sure that your project and physical emulator are connected to the similar network.
+
+Steps:
+1. Open XAMPP, and start Apache and MySQL services. Now your system is ready to use like a local host computer.
+2. Create your database
+3. Create PHP Script to convert MySQL DB into JSON(open insert.php) and make sure that it is saved in the following file path:
+        C:\xampp\htdocs\[YOUR_FOLDER]\api\insert.php
+4. Also store your react project in   C:\xampp\htdocs\[folder where \api\insert.php stored]\[YOUR_PROJECT_FOLDER_HERE]
+5. In your front end (SignUp.js) is where all the authentications, validations and Fetch API is implemented.
